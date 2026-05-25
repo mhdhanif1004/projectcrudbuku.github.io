@@ -1,0 +1,171 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* LAYOUT */
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 230px;
+    background: linear-gradient(180deg, #1e90ff, #2563eb);
+    color: white;
+    padding: 20px;
+}
+
+/* GAMBAR ADMIN (dari CSS) */
+.admin-img {
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    background: url('/images/admin.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* TEXT SIDEBAR */
+.sidebar h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar h3 {
+    margin-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.sidebar ul li a:hover {
+    background: linear-gradient(to right, #ffffff, #206ee4);
+    color: #0066ff;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.logout {
+    display: block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+/* MAIN */
+.main {
+    flex: 1;
+    background: #f4f6f9;
+    padding: 20px;
+}
+
+/* TOPBAR */
+.topbar {
+    background: linear-gradient(to right, #3b82f6, #38bdf8);
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+}
+
+/* CONTAINER */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* BUTTON */
+.tombol {
+    background: linear-gradient(to right, #3b82f6, #38bdf8);
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.tombol:hover {
+    background: linear-gradient(to right, #ffffff, #3b82f6);
+    color: #000000;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #34495e;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+/* FORM */
+.form-group {
+    margin-bottom: 15px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+select {
+    appearance: none;
+    /* hilangkan style default */
+    background: white;
+    cursor: pointer;
+}
